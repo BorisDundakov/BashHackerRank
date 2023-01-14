@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Rename all *.sh to *.bash
 
 for file in *.sh; do 
