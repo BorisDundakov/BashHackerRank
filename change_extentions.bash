@@ -1,7 +1,9 @@
 #!/bin/bash
 
-# Rename all *.sh to *.bash
+# rename all files ending in .sh to end in .bash
 
-for file in *.sh; do 
-    mv -- "$file" "${file%.txt}.bash"
+for file in *.sh
+do
+  mv "$file" "${file%.sh}.bash"
 done
+
