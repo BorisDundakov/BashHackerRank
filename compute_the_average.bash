@@ -1,3 +1,5 @@
+#! /bin/bash
+
 read n_integers
 sum=0
 for ((i=0; i<=$n_integers; i++))

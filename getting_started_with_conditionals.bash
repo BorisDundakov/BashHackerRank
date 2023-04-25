@@ -1,3 +1,5 @@
+#! /bin/bash
+
 read char
 if [ $char == 'Y' ] || [ $char == 'y' ] 
 then
