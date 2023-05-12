@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Read the input lines from a file
+# Display the first 20 rows/lines in a text file
 head -n 20
 
 

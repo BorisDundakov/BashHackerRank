@@ -1,5 +1,8 @@
 #!/bin/bash
-
+:'
+Given a sentence, identify and display its first three words.
+Assume that the space (' ') is the only delimiter between words. 
+'
 #Read the input lines from a file
 while read line; do
     # Extract the desired character using cut
